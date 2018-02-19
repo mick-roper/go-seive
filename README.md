@@ -1,5 +1,5 @@
 # go-seive
-sieve of Eratosthenes written in go!
+Seive of Eratosthenes - written in Go!
 
 ## Requirements:
 Go 1.9.3
