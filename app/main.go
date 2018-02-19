@@ -56,11 +56,9 @@ func main() {
 
 	elapsed := time.Since(start)
 
-	log.Print("Seive complete!")
-
 	for i := range keys {
 		if seive[i] {
-			log.Println(i)
+			log.Println(i, "is prime")
 		}
 	}
 
