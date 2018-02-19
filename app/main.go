@@ -16,6 +16,9 @@ func main() {
 	flag.Parse()
 
 	n := *nPtr
+	if n < 2 {
+		log.Panic("n must be greater than or equal to 2")
+	}
 
 	seive = make(map[int]bool, n)
 
